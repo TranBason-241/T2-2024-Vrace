@@ -54,6 +54,10 @@
   font-style: normal;
   color: #444444; }
 
+.group_text {
+  position: relative;
+  z-index: 100; }
+
 .group_image {
   position: relative;
   width: fit-content;
@@ -99,5 +103,36 @@
 
 .img-1 {
   margin-top: -11%; }
+
+.group_img_3 {
+  margin-top: -4%; }
+
+.section-2 {
+  background-image: url(../images/bg-1.png);
+  background-position: center bottom 60%;
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
+  margin-top: -130px; }
+
+.section-3 {
+  margin-top: 50px; }
+
+.group_img_4 {
+  margin-bottom: 40px; }
+
+.group_img_5 {
+  margin-top: -29%;
+  margin-bottom: 40px; }
+
+.img-6 {
+  margin-top: 50px;
+  position: relative;
+  z-index: 5; }
+
+.group_img_6 {
+  margin-top: -10%; }
+
+.group_img_7 {
+  margin-top: -10%; }
 
 /*# sourceMappingURL=main.css.map */
