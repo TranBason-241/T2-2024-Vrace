@@ -3,6 +3,7 @@
 .my_container {
     background-color: white;
     overflow: hidden;
+    background-image: url(../images/bg-loop.jpg);
 }
 .img {
     max-width: 100%;
@@ -12,15 +13,16 @@
 }
 
 .text_title {
-    width: 850px;
+    width: 1000px;
     max-width: 100%;
     margin: 0px auto;
     text-align: center;
-    font-size: 26px;
-    font-family: "Philosopher";
-    font-weight: normal;
+    font-size: 30px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    color: #444444;
+    margin-top: -5%;
 }
 .text_content {
     width: 700px;
@@ -29,9 +31,10 @@
     text-align: left;
     font-size: 18px;
     position: relative;
-    font-family: "K2D";
+    font-family: "Plus Jakarta Sans";
     font-weight: normal;
     font-style: normal;
+    color: #444444;
 }
 
 .group_image {
@@ -69,7 +72,24 @@
     }
     margin-top: 0px;
 }
-
+.group-img-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    img {
+        margin: 0;
+    }
+    margin-bottom: 30px;
+}
+.group-img-row-1 {
+    margin-top: -10%;
+}
+.group_img_2 {
+    margin-bottom: 30px;
+}
+.img-1 {
+    margin-top: -11%;
+}
 @media (min-width: 577px) {
     .mobile {
         // display: none !important;
